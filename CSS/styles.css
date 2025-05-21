@@ -1,0 +1,59 @@
+/* CSS: Cascading Style Sheets */
+
+.title {
+    font-size: 50px;
+    font-weight: 700
+}
+
+section#principais-estilos {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 20px 40px;
+    border: 4px solid purple;
+    border-radius: 10px;
+}
+
+#principais-estilos .paragrafo {
+    font-size: 22px;
+    line-height: 1.2;
+    color: violet;
+    font-family: 'Arial';
+}
+
+#flexbox .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#flexbox .container .box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+#flexbox .container .box2 {
+    width: 200px;
+    height: 400px;
+    background-color: deeppink;
+}
+
+section#grid-layout {
+    margin-top: 50px;
+}
+
+#grid-layout .container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#grid-layout .container-grid .caixa {
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+}
